@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Page: {{ path | replace('_', ' ') | title }}</h2>
+<p>Content for {{ path }} goes here.</p>
+{% endblock %}
